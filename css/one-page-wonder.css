@@ -1,0 +1,255 @@
+/*
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: #7EAA00;
+}
+
+nav {
+    background: rgba(10,10,10,0.95) !important;
+}
+
+a {
+    color: rgba(255,255,255,1) !important;
+}
+
+header {
+    min-height: calc(100vh - 50px);
+    max-height: calc(100vh - 50px);
+}
+
+.text-muted {
+    color: white !important;
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('../assets/header.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline {
+    padding: 300px 0;
+}
+
+.headline h1 {
+    font-size: 100px;
+    color: white;
+    background: rgba(10,10,10,0.9);
+}
+
+.headline h2 {
+    font-size: 47px;
+    color: white;
+    background: rgba(10,10,10,0.9);
+}
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+    color: black !important;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:1200px) {
+    .headline h1 {
+        font-size: 90px;
+    }
+
+    .headline h2 {
+        font-size: 35px;
+    }
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 100px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .headline h1 {
+        font-size: 65px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .headline h1 {
+        font-size: 65px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 40px;
+    }
+
+    .headline h2 {
+        font-size: 20px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:640px) {
+    .headline h1 {
+        font-size: 40px;
+    }
+
+    .headline h2 {
+        font-size: 20px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px) {
+    .headline h1 {
+        font-size: 40px;
+    }
+
+    .headline h2 {
+        font-size: 20px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
