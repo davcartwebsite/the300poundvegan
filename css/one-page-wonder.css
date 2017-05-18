@@ -224,7 +224,10 @@ footer {
     }
 }
 
-@media(max-width:375px) {
+@media(max-width:414px) {
+    .header-image{
+        background: url('../assets/header-small.png') no-repeat center center scroll;
+    }
     .headline h1 {
         font-size: 40px;
     }
